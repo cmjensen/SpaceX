@@ -4,10 +4,15 @@ body {
     color: white; 
 }
 
-ul {
+.nav-links {
     list-style-type: none;
     display: flex;
     flex-direction: space-around;
     justify-content: center;
+}
+
+.nav-shop {
+    display: flex;
+    
 }
 
