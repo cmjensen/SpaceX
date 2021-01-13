@@ -3,6 +3,7 @@ body {
     width: 100vw;
     color: white; 
     text-align: center;
+    position: relative;
 }
 
 #logo {
@@ -34,27 +35,54 @@ body {
 #shop {
     display: flex;
     justify-content: right;
-    right: 85px;
+    right: 120px;
     position: absolute;
+    top: 35px;
 }
 
-/* .mission {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: right;
-	align-items: flex-end;
-    align-content: flex-end;
-    right: 100px;
-
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    right: 80px;
+    top: 30px;
 }
+
 
 #top {
     display: flex;
-    justify-content: right;
-    right: 85px;
+    justify-content: left;
+    right: 435px;
     position: absolute;
-} */
+    bottom: 30%;
+    top: 10px;
+}
 
+.mission {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: flex-end;
+    align-content: flex-start;
+    right: 300px;
+    position: absolute;
+    bottom: 25%;
+}
 
-
+#button {
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: solid black;
+    display: flex;
+    position: absolute;
+    align-items: right;
+    right: 550px;
+    bottom: 120px;
+    text-align: center;
+    padding: 15px;
+    border-color: #303436;
+}
